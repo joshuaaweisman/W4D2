@@ -1,0 +1,9 @@
+<ul>
+    <% @cats.each do |cat| %>
+        <li><a href="<%=cat_url(cat)%>"><%=cat.name%></a></li>
+    <% end %>
+</ul>
+
+
+
+<!-- <li> (RUBY TAG)# link_to cat.name, cat(END RUBY TAG)</li> -->
